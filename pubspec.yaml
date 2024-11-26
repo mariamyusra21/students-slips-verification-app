@@ -1,0 +1,33 @@
+name: exam_slip_verification
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.1.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: 
+  sizer:
+  qr_mobile_vision:
+  http:
+  fluttertoast: 
+  intl:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - 'assets/images/'
+  fonts:
+    - family: TimesNewRoman
+      fonts:
+        - asset: assets/fonts/times new roman.ttf
+        - asset: assets/fonts/times new roman italic.ttf
+          style: italic
